@@ -202,7 +202,7 @@ p > i {display: inline;}
  
 }
 
-#text1{
+#hi{
   padding-top:  50%;
   /*background-color: teal;*/
   padding-right: 4vw;
@@ -213,7 +213,7 @@ p > i {display: inline;}
 
 }
 
-  #text2{
+  #more{
   padding-top:  40%;
   /*background-color: black;*/
   padding-right: 4vw;
@@ -224,7 +224,7 @@ p > i {display: inline;}
 
   }
 
-  #more{
+  #reveal{
   width: 45vw;
   position: absolute;
   bottom: 1%;
@@ -232,12 +232,12 @@ p > i {display: inline;}
   text-align: center;
 }
 
-#more p{
+#reveal p{
   margin: 0;
   font-size: .9em;
 }
 
-#more img{height: 2em;}
+#reveal img{height: 2em;}
 
   #less{
   width: 45vw;
@@ -257,7 +257,7 @@ p > i {display: inline;}
   display: none;
   position: relative; 
   width: 100%;}
-  #more{width: 95%;}
+  #reveal{width: 95%;}
   #less{width: 95%;}
 
 }
@@ -756,7 +756,7 @@ video::-webkit-media-controls-panel {
 
 
 @media all and (max-width: 1200px) {  
-  #text2 li {width: 100%;}
+  #more li {width: 100%;}
 }
 
 
