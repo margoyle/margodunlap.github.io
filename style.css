@@ -428,11 +428,11 @@ p > i {display: inline;}
 }
 
 .carousel::before {
-  background-image: url("/images/icons/Caret-left-black.svg");
+  background-image: url("images/icons/Caret-left-black.svg");
 }
 
 .carousel::after {
-  background-image: url("/images/icons/Caret-right-black.svg");
+  background-image: url("images/icons/Caret-right-black.svg");
 }
 
 
